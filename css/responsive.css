@@ -65,6 +65,8 @@
 
 		#topNav.mobile-nav-active {
 			display: block;
+			transition: all .3s ease;
+			-webkit-transition:  all .3s ease;
 		}
 
 		header.mobile-nav-active a {
