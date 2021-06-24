@@ -65,9 +65,13 @@
 			display: block;
 		}
 
-		#topNav.mobile-nav-active a, header.mobile-nav-active .mobile-nav-menu a {
-			color: rgba(238, 238, 238, .8);
+		header.mobile-nav-active a {
+			color: rgba(238, 238, 238, .5);
 		}
+
+		#topNav.mobile-nav-active a.active-dropdown-folder, #topNav.mobile-nav-active a.active-folder-page, #topNav.mobile-nav-active #secondaryNav a.active-page {
+		color: rgba(238, 238, 238, .9);
+	}
 
 		header.mobile-nav-active #logo svg {
 			fill: rgba(238, 238, 238, .8);
@@ -100,7 +104,6 @@
 			letter-spacing: .08em;
 			text-decoration: none;
 			text-transform: lowercase;
-			color: #747474;
 		}
 
 		header a.mobile-menu-toggle:hover {
